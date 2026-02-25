@@ -179,6 +179,8 @@ body {
 .site-info { padding:12px 14px; background:transparent; }
 .site-info strong { display:block; font-size:15px; color:var(--primary); }
 .site-info small { display:block; color:var(--muted); font-size:12px; margin-top:6px }
+.site-info .store-password { margin-top:4px; color:var(--accent); font-weight:600 }
+.site-info .store-password code { background:rgba(15,76,129,0.06); padding:1px 5px; border-radius:4px; font-size:11px; color:var(--text); }
 
 @media (max-width: 900px) {
     .site-grid { grid-template-columns:repeat(2,1fr); }
