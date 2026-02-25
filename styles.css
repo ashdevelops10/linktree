@@ -152,6 +152,21 @@ body {
 .ref-link { color: var(--text); text-decoration:none; padding:6px 8px; display:inline-block; border-left:3px solid transparent; transition:var(--transition); }
 .ref-link:hover { color: var(--primary); border-left-color:var(--accent); background: rgba(15,36,56,0.02); border-radius:6px; }
 
+/* section headings */
+.section-heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+    letter-spacing: 0.3px;
+}
+.links + .links {
+    margin-top: 28px;
+}
+
 /* site grid */
 .site-grid {
     list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3,1fr); gap:16px;
